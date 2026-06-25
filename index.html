@@ -3,16 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Privacy Policy for the Higher Power Foundation Android Application">
 
 <title>Higher Power Foundation - Privacy Policy</title>
 
 <style>
+
+*{
+    box-sizing:border-box;
+}
+
 body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
     background:#f4f7fb;
     color:#333;
     line-height:1.7;
+}
+
+.language-switcher{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:white;
+    padding:12px 20px;
+    text-align:right;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.language-switcher button{
+    border:none;
+    padding:10px 18px;
+    margin-left:8px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.active-lang{
+    background:#1565c0;
+    color:white;
 }
 
 .header{
@@ -70,15 +100,48 @@ ul{
 a{
     color:#1565c0;
     text-decoration:none;
+    word-break:break-word;
 }
 
 a:hover{
     text-decoration:underline;
 }
+
+@media (max-width:768px){
+
+    .header{
+        padding:40px 20px;
+    }
+
+    .header h1{
+        font-size:30px;
+    }
+
+    .container{
+        padding:20px 15px;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+}
+
 </style>
 </head>
 
 <body>
+
+<div class="language-switcher">
+    <button id="enBtn" class="active-lang" onclick="showEnglish()">English</button>
+    <button id="taBtn" onclick="showTamil()">தமிழ்</button>
+</div>
+
+<!-- ========================= -->
+<!-- ENGLISH VERSION -->
+<!-- ========================= -->
+
+<div id="english-content">
 
 <div class="header">
     <h1>Higher Power Foundation</h1>
@@ -90,21 +153,28 @@ a:hover{
 
 <div class="card">
 <h2>Introduction</h2>
+
 <p>
 Higher Power Foundation ("HPF", "we", "our", or "us") respects your privacy and is committed to protecting the privacy of individuals who use our mobile application.
 </p>
+
 <p>
 This Privacy Policy explains how the Higher Power Foundation mobile application ("App") handles information and user privacy.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Information We Collect</h2>
+
 <p>
 HPF does not collect, store, transmit, share, sell, rent, or otherwise process any personal information from users.
 </p>
 
-<p>The App does not require account registration and does not collect:</p>
+<p>
+The App does not require account registration and does not collect:
+</p>
 
 <ul>
 <li>Names</li>
@@ -120,10 +190,13 @@ HPF does not collect, store, transmit, share, sell, rent, or otherwise process a
 <li>Advertising identifiers</li>
 <li>Usage analytics</li>
 </ul>
+
 </div>
 
 <div class="card">
+
 <h2>Local Device Storage</h2>
+
 <p>
 To support normal application functionality, the App may store settings, preferences, completed activities, recovery progress, or other application data locally on the user's device.
 </p>
@@ -131,23 +204,37 @@ To support normal application functionality, the App may store settings, prefere
 <p>
 This information remains exclusively on the user's device and is not transmitted to Higher Power Foundation or any third party.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Advertising and Analytics</h2>
-<p>HPF does not display advertisements.</p>
-<p>HPF does not use analytics services, advertising networks, behavioral tracking technologies, or marketing platforms.</p>
+
+<p>
+HPF does not display advertisements.
+</p>
+
+<p>
+HPF does not use analytics services, advertising networks, behavioral tracking technologies, or marketing platforms.
+</p>
+
 </div>
 
 <div class="card">
+
 <h2>Data Sharing</h2>
+
 <p>
 Because HPF does not collect personal information, no personal information is shared, sold, rented, disclosed, or transferred to third parties.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Third-Party Services</h2>
+
 <p>
 The App may utilize standard Android platform services and libraries necessary for application functionality.
 </p>
@@ -155,10 +242,13 @@ The App may utilize standard Android platform services and libraries necessary f
 <p>
 Any services provided by Google as part of the Android operating system are governed by Google's own privacy policies and terms.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Data Security</h2>
+
 <p>
 Because HPF does not collect or maintain user information on external servers, there are no user databases containing personal information maintained by Higher Power Foundation.
 </p>
@@ -166,10 +256,13 @@ Because HPF does not collect or maintain user information on external servers, t
 <p>
 Users are responsible for maintaining the security of their own devices.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Children's Privacy</h2>
+
 <p>
 HPF does not knowingly collect personal information from children.
 </p>
@@ -177,10 +270,13 @@ HPF does not knowingly collect personal information from children.
 <p>
 The App is intended for adults and individuals participating in recovery, wellness, and personal development programs.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Intended Use</h2>
+
 <p>
 HPF is intended to support personal recovery, wellness, education, self-reflection, and personal growth.
 </p>
@@ -192,9 +288,11 @@ The App is not intended to diagnose, prevent, monitor, predict, treat, or cure a
 <p>
 All recovery decisions remain the responsibility of the user and their healthcare providers.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Medical Disclaimer</h2>
 
 <p>
@@ -220,9 +318,11 @@ Users should consult qualified healthcare professionals regarding any medical, p
 <p>
 If you are experiencing a medical emergency, mental health crisis, suicidal thoughts, or believe you may be at risk of harming yourself or others, contact emergency services or a qualified healthcare professional immediately.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Changes to This Privacy Policy</h2>
 
 <p>
@@ -236,12 +336,15 @@ Any changes will be posted on this page with an updated effective date.
 <p>
 Continued use of the App after changes are posted constitutes acceptance of the revised Privacy Policy.
 </p>
+
 </div>
 
 <div class="card">
+
 <h2>Contact Us</h2>
 
 <div class="contact-box">
+
 <p><strong>Higher Power Foundation</strong></p>
 
 <p>
@@ -257,6 +360,7 @@ Email:
 higherpower2019raja@gmail.com
 </a>
 </p>
+
 </div>
 
 </div>
@@ -266,6 +370,268 @@ higherpower2019raja@gmail.com
 <div class="footer">
     <strong>Last Updated:</strong> June 21, 2026
 </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- TAMIL VERSION -->
+<!-- ========================= -->
+
+<div id="tamil-content" style="display:none;">
+
+<div class="header">
+    <h1>ஹையர் பவர் ஃபவுண்டேஷன்</h1>
+    <p>தனியுரிமைக் கொள்கை</p>
+    <p>செயல்படும் தேதி: ஜூன் 21, 2026</p>
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h2>அறிமுகம்</h2>
+
+<p>
+ஹையர் பவர் ஃபவுண்டேஷன் ("HPF", "நாங்கள்", "எங்கள்") உங்கள் தனியுரிமையை மதிக்கிறது மற்றும் எங்கள் மொபைல் பயன்பாட்டைப் பயன்படுத்தும் நபர்களின் தனியுரிமையை பாதுகாக்க உறுதிபூண்டுள்ளது.
+</p>
+
+<p>
+இந்த தனியுரிமைக் கொள்கை, ஹையர் பவர் ஃபவுண்டேஷன் மொபைல் பயன்பாடு ("பயன்பாடு") தகவல்களையும் பயனர் தனியுரிமையையும் எவ்வாறு கையாளுகிறது என்பதை விளக்குகிறது.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>நாங்கள் சேகரிக்கும் தகவல்கள்</h2>
+
+<p>
+HPF பயனர்களிடமிருந்து எந்தவொரு தனிப்பட்ட தகவலையும் சேகரிக்காது, சேமிக்காது, அனுப்பாது, பகிராது, விற்காது, வாடகைக்கு விடாது அல்லது வேறு எந்த வகையிலும் செயலாக்காது.
+</p>
+
+<p>
+இந்த பயன்பாட்டில் கணக்கு பதிவு தேவையில்லை மற்றும் பின்வரும் தகவல்கள் சேகரிக்கப்படுவதில்லை:
+</p>
+
+<ul>
+<li>பெயர்கள்</li>
+<li>மின்னஞ்சல் முகவரிகள்</li>
+<li>தொலைபேசி எண்கள்</li>
+<li>அஞ்சல் முகவரிகள்</li>
+<li>இருப்பிடத் தகவல்</li>
+<li>தொடர்புகள்</li>
+<li>புகைப்படங்கள் அல்லது ஊடகக் கோப்புகள்</li>
+<li>கட்டணத் தகவல்</li>
+<li>சுகாதாரப் பதிவுகள்</li>
+<li>சாதன அடையாளங்கள்</li>
+<li>விளம்பர அடையாளங்கள்</li>
+<li>பயன்பாட்டு பகுப்பாய்வு தகவல்கள்</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>சாதனத்தில் உள்ளக சேமிப்பு</h2>
+
+<p>
+பயன்பாட்டின் இயல்பான செயல்பாட்டை ஆதரிக்க, அமைப்புகள், விருப்பங்கள், முடிக்கப்பட்ட செயல்பாடுகள், மீட்பு முன்னேற்றம் அல்லது பிற பயன்பாட்டு தகவல்கள் பயனரின் சாதனத்தில் உள்ளகமாக சேமிக்கப்படலாம்.
+</p>
+
+<p>
+இந்த தகவல்கள் முழுமையாக பயனரின் சாதனத்திலேயே இருக்கும்; அவை ஹையர் பவர் ஃபவுண்டேஷனிற்கோ அல்லது எந்த மூன்றாம் தரப்பிற்கோ அனுப்பப்படுவதில்லை.
+</p>
+
+</div>
+<div class="card">
+
+<h2>விளம்பரங்கள் மற்றும் பகுப்பாய்வு</h2>
+
+<p>
+HPF எந்தவொரு விளம்பரங்களையும் காட்டுவதில்லை.
+</p>
+
+<p>
+HPF பகுப்பாய்வு சேவைகள், விளம்பர வலைப்பின்னல்கள், நடத்தை கண்காணிப்பு தொழில்நுட்பங்கள் அல்லது சந்தைப்படுத்தல் தளங்களை பயன்படுத்துவதில்லை.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>தகவல் பகிர்வு</h2>
+
+<p>
+HPF எந்தவொரு தனிப்பட்ட தகவலையும் சேகரிக்காததால், எந்த தனிப்பட்ட தகவலும் மூன்றாம் தரப்பினருடன் பகிரப்படுவதில்லை, விற்கப்படுவதில்லை, வாடகைக்கு விடப்படுவதில்லை அல்லது வெளியிடப்படுவதில்லை.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>மூன்றாம் தரப்பு சேவைகள்</h2>
+
+<p>
+பயன்பாட்டின் செயல்பாட்டிற்கு தேவையான வழக்கமான Android தள சேவைகள் மற்றும் நூலகங்களை இந்த பயன்பாடு பயன்படுத்தக்கூடும்.
+</p>
+
+<p>
+Android இயங்குதளத்தின் ஒரு பகுதியாக Google வழங்கும் சேவைகள், Google's சொந்த தனியுரிமைக் கொள்கைகள் மற்றும் விதிமுறைகளின் கீழ் இயங்குகின்றன.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>தரவு பாதுகாப்பு</h2>
+
+<p>
+HPF பயனர் தகவல்களை வெளிப்புற சேவையகங்களில் சேகரிக்கவோ பராமரிக்கவோ செய்யாததால், பயனர்களின் தனிப்பட்ட தகவல்களைக் கொண்ட எந்த தரவுத்தளங்களும் ஹையர் பவர் ஃபவுண்டேஷனால் பராமரிக்கப்படுவதில்லை.
+</p>
+
+<p>
+பயனர்கள் தங்களது சொந்த சாதனங்களின் பாதுகாப்பை பராமரிப்பதற்கு பொறுப்பானவர்கள்.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>குழந்தைகளின் தனியுரிமை</h2>
+
+<p>
+HPF குழந்தைகளிடமிருந்து தனிப்பட்ட தகவல்களை அறிந்தே சேகரிப்பதில்லை.
+</p>
+
+<p>
+இந்த பயன்பாடு பெரியவர்கள் மற்றும் மீட்பு, நலவாழ்வு மற்றும் தனிமனித மேம்பாட்டு திட்டங்களில் பங்கேற்கும் நபர்களுக்காக உருவாக்கப்பட்டுள்ளது.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>பயன்பாட்டின் நோக்கம்</h2>
+
+<p>
+HPF தனிப்பட்ட மீட்பு, நலவாழ்வு, கல்வி, சுய சிந்தனை மற்றும் தனிமனித வளர்ச்சியை ஆதரிப்பதற்காக வடிவமைக்கப்பட்டுள்ளது.
+</p>
+
+<p>
+இந்த பயன்பாடு எந்தவொரு நோய், மருத்துவ நிலை, மனநல நிலை அல்லது பொருள் பயன்பாட்டு குறைபாட்டையும் கண்டறிய, தடுக்க, கண்காணிக்க, முன்னறிவிக்க, சிகிச்சையளிக்க அல்லது குணப்படுத்துவதற்காக உருவாக்கப்படவில்லை.
+</p>
+
+<p>
+மீட்பு தொடர்பான அனைத்து முடிவுகளும் பயனரின் மற்றும் அவர்களின் சுகாதார நிபுணர்களின் பொறுப்பாகும்.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>மருத்துவ மறுப்பு அறிவிப்பு</h2>
+
+<p>
+Higher Power Foundation (HPF) என்பது மீட்பு தொடர்பான தகவல்கள், சுய சிந்தனை பயிற்சிகள், நலவாழ்வு செயல்பாடுகள் மற்றும் தனிமனித வளர்ச்சி கருவிகளை வழங்குவதற்காக வடிவமைக்கப்பட்ட கல்வி, நலவாழ்வு மற்றும் மீட்பு ஆதரவு பயன்பாடாகும்.
+</p>
+
+<p>
+இந்த பயன்பாடு மருத்துவ ஆலோசனை, மருத்துவ நோயறிதல், மனநல நோயறிதல், சிகிச்சை பரிந்துரைகள், அவசர சேவைகள் அல்லது தொழில்முறை சுகாதார சேவைகளை வழங்குவதில்லை.
+</p>
+
+<p>
+பயன்பாட்டில் வழங்கப்படும் தகவல்கள் கல்வி மற்றும் தகவல் நோக்கங்களுக்காக மட்டுமே. அவை தொழில்முறை மருத்துவ, மனநல, உளவியல் அல்லது அடிமைத்தன சிகிச்சை சேவைகளுக்கு மாற்றாக கருதப்படக்கூடாது.
+</p>
+
+<p>
+இந்த பயன்பாட்டின் மீட்பு செயல்பாடுகளில் பங்கேற்பது மருத்துவர்-நோயாளர், உளவியலாளர்-நோயாளர், ஆலோசகர்-நோயாளர் அல்லது சிகிச்சை வழங்குநர் உறவை உருவாக்காது.
+</p>
+
+<p>
+மருத்துவம், மனநலம், உளவியல், பொருள் பயன்பாடு, அடிமைத்தன மீட்பு அல்லது மனநல தொடர்பான கவலைகளுக்காக தகுதியான சுகாதார நிபுணர்களை பயனர்கள் அணுக வேண்டும்.
+</p>
+
+<p>
+நீங்கள் மருத்துவ அவசரநிலை, மனநல நெருக்கடி, தற்கொலை எண்ணங்கள் அல்லது உங்களுக்கோ பிறருக்கோ தீங்கு விளைவிக்கும் அபாயத்தில் இருப்பதாக நம்பினால், உடனடியாக அவசர சேவைகளை அல்லது தகுதியான சுகாதார நிபுணரை தொடர்புகொள்ளுங்கள்.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>இந்த தனியுரிமைக் கொள்கையில் மாற்றங்கள்</h2>
+
+<p>
+இந்த தனியுரிமைக் கொள்கையை அவ்வப்போது புதுப்பிக்கலாம்.
+</p>
+
+<p>
+எந்த மாற்றங்களும் இந்தப் பக்கத்தில் புதுப்பிக்கப்பட்ட செயல்படும் தேதியுடன் வெளியிடப்படும்.
+</p>
+
+<p>
+மாற்றங்கள் வெளியிடப்பட்ட பிறகும் பயன்பாட்டை தொடர்ந்து பயன்படுத்துவது, திருத்தப்பட்ட தனியுரிமைக் கொள்கையை ஏற்றுக்கொண்டதாக கருதப்படும்.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>எங்களை தொடர்புகொள்ள</h2>
+
+<p>
+இந்த தனியுரிமைக் கொள்கை குறித்து ஏதேனும் கேள்விகள் இருந்தால், தயவுசெய்து தொடர்புகொள்ளவும்:
+</p>
+
+<div class="contact-box">
+
+<p><strong>Higher Power Foundation</strong></p>
+
+<p>
+இணையதளம்:
+<a href="https://higherpowerfoundation.com">
+https://higherpowerfoundation.com
+</a>
+</p>
+
+<p>
+மின்னஞ்சல்:
+<a href="mailto:higherpower2019raja@gmail.com">
+higherpower2019raja@gmail.com
+</a>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+    <strong>கடைசியாக புதுப்பிக்கப்பட்டது:</strong> ஜூன் 21, 2026
+</div>
+
+</div>
+
+<script>
+
+function showEnglish(){
+    document.getElementById("english-content").style.display = "block";
+    document.getElementById("tamil-content").style.display = "none";
+
+    document.getElementById("enBtn").classList.add("active-lang");
+    document.getElementById("taBtn").classList.remove("active-lang");
+}
+
+function showTamil(){
+    document.getElementById("english-content").style.display = "none";
+    document.getElementById("tamil-content").style.display = "block";
+
+    document.getElementById("taBtn").classList.add("active-lang");
+    document.getElementById("enBtn").classList.remove("active-lang");
+}
+
+</script>
 
 </body>
 </html>
